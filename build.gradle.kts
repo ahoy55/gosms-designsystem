@@ -9,7 +9,7 @@ plugins {
 }
 
 group = "ru.gosms"
-version = "0.1.0"
+version = "0.2.0"
 
 kotlin {
     listOf(
@@ -47,6 +47,8 @@ kotlin {
             implementation(libs.compose.ui)
             implementation(libs.compose.components.resources)
             implementation(libs.compose.uiToolingPreview)
+            implementation(libs.compose.materialIconsCore)
+            implementation(libs.compose.materialIconsExtended)
         }
     }
 }
