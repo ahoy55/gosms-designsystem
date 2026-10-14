@@ -9,7 +9,7 @@ plugins {
 }
 
 group = "ru.gosms"
-version = "0.3.1"
+version = "0.4.0-SNAPSHOT"
 
 kotlin {
     listOf(
